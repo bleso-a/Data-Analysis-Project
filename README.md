@@ -1,4 +1,4 @@
-NB: This is a template to make documentation process easy.
+NB: This is a template to make documentation process easy. You can remove the `To-Do` notes in your final commit.
 
 # Project Title Here
 
@@ -22,4 +22,4 @@ To-Do - Explain what you did differently in the project following the instructio
 
 # Executive Summary.
 
-To-Do - Include your Executive Summary in your repository.
+To-Do - Include your Executive Summary document in your repository.

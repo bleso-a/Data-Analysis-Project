@@ -22,4 +22,4 @@ To-Do - Explain what you did differently in the project following the instructio
 
 # Executive Summary.
 
-To-Do - Include your Executive Summary in your repository.
+To-Do - Include your Executive Summary document in your repository.

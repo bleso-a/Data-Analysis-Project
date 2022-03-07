@@ -1,25 +1,26 @@
-NB: This is a template to make documentation process easy. You can remove the `To-Do` notes in your final commit
+DATA ANALYSIS for XYZ Company
 
-# Project Title Here
-
-To-Do - Write a short project description here.
+The Project analysed the detailed Datasets record of the XYZ company. It detailed the records across all the branches of the company. with the analysis the company's progress can be identified through the datasets of the company. the analysis was also simplified with seaborn visualization.
 
 # Project Steps
 
-To-Do - Explain in detail, the project steps and overview of different tasks completed here.
+To caery out the analysis, all the necessary and relevant liberies were imported on the jupiter Notebook using pandas. the libraries includes: numpy, pandas, seaborn, matplotlib. etc.
+To carry out the XYZ company project,Raw data was fetched in CSV format an dataset was also imported as csv format. 
 
 # Insights
 
-To-Do - Explain the insights you were able to uncover from the analysing the datasets.
+Retrieving datasets from internet to working directory makes me understands more of the data analysis concept, data wrangling, grouping relevant columns, working with null values, also while analysing with visualization, i came across more types of visualization and more understanding of datetime functions.
 
 # Future Work
 
-To-Do - Suggest tasks you might include in future work to make this project more robust.
+one of the task that might be included in future work will be stretching on working with missing files, iterations, replacing strings. more works on visualizations like distplot(), swarmplot(), pointplot() and et al.
 
 # Standout Section
 
-To-Do - Explain what you did differently in the project following the instructions in the notebook.
+the seaborn visualisation. analysing the data with the visualization makes analysis easier and stand out.
+
+
 
 # Executive Summary.
 
-To-Do - Include your Executive Summary document in your repository.
+[project executive-summary.docx](https://github.com/adesojinurudeen/Data-Analysis-Project/files/8200731/project.executive-summary.docx)

@@ -22,5 +22,4 @@ the seaborn visualisation. analysing the data with the visualization makes analy
 
 
 # Executive Summary.
-
-[project executive-summary.docx](https://github.com/adesojinurudeen/Data-Analysis-Project/files/8200731/project.executive-summary.docx)
+[project executive-summary.docx](https://github.com/adesojinurudeen/Data-Analysis-Project/files/8200961/project.executive-summary.docx)

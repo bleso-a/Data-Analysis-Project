@@ -59,6 +59,8 @@ during data wrangling i was ab le to have clearer picture of some functions in d
     
    # 4. Null-value:
    A NULL value is a special marker used in data analysis to indicate that a data value does not exist  in the datasets. its a placeholder to denote values that are missing or that we do not know.
+   # 5. Groupby() 
+   groupby is used for grouping data according to the categories and apply a function to the categories. it also helps to aggregiate data efficiently during data analysis. it also helps to get an overview of the dataset. it makes it easier to explore the dataset and unveil the underline relationships among variables.
    
 # Future Work
 one of the task that might be included in future work will be stretching on working with missing files, iterations, replacing strings. more works on visualizations like distplot(), swarmplot(), pointplot() and et al.
@@ -77,4 +79,3 @@ countplot also used to visualise the analysis of payment method most used in bra
 
 
 # Executive Summary.
-[project.executive-summary.docx](https://github.com/adesojinurudeen/Data-Analysis-Project/files/8216724/project.executive-summary.docx)

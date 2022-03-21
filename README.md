@@ -40,23 +40,40 @@ The XYZ company project was carried out in the following steps:
 
 # Step 6 - Data Visualization
 -- Appropriate use of countplot to determine the branch with the highest sales record.
--- Optional - Appropriate use of countplot to determine the most used payment method & city with the most sales.
+-- Appropriate use of countplot to determine the most used payment method & city with the most sales.
 -- Appropriate use of countplot to determine the highest & lowest sold product line.
 -- Result that shows the Payment channel used by most customers to pay for each product line. Chart should also show the "product line" column on the Y-axis, and the "hue" parameter for the "Payment" column. 
 
 
 # Insights
+during data wrangling i was ab le to have clearer picture of some functions in data analysis, which are very vital when it comes to analysis. some of it are the visualization, null value, unique value, Mean and standard deviation as listed below.
 
-Retrieving datasets from internet to working directory makes me understands more of the data analysis concept, data wrangling, grouping relevant columns, working with null values, also while analysing with visualization, i came across more types of visualization and more understanding of datetime functions.
-
+  # 1. Visualisation
+    this  visualising the data helps in decision-making, helps to inerrelate the data to find better insights and reap the importance of data visualization in analyzing the data in a beter way. it helps the business stakeholders focus on the areas that requires attention. it helps in fast decision making. this is because human process visual better than any tedius tabular forms or reports. it means if the data communicates well, decsion-makers can quickly take actions based on the new data insights.
+    
+   # 2. Unique()-value:
+   this function is used to find the unique elements of an array. it returns the sorted unique elements of an array.
+   
+   # 3. Mean() function:
+    this is an important measure in the data analysis that plays vital roles in the decision making. Because it gives us an idea of where the center value is located in a dataset. it incoperates the score from every values of rows in columns of the datasets. which will count the total value of rows in the columns, add up all the values and divide by the total number of values in tthe columns of the dataset. 
+    
+   # 4. Null-value:
+   A NULL value is a special marker used in data analysis to indicate that a data value does not exist  in the datasets. its a placeholder to denote values that are missing or that we do not know.
+   
 # Future Work
-
 one of the task that might be included in future work will be stretching on working with missing files, iterations, replacing strings. more works on visualizations like distplot(), swarmplot(), pointplot() and et al.
 
 # Standout Section
+since data visualization is vital part of data analysis. more seaborn functions was used to visualize dataset baseon their variance. for example:
+  sns.catplot(x='Product line',y='Quantity', Units='product line per Quantity', data=df, aspect=4, kind='point')
+  
+  catplots was used to visualise the analysis in product line and quantity: that is product line per quantity.
+  
+  sns.boxplot(x='Branch', y='gross income', data=df).set_title("Sales Records")
+also Boxplot also used to visualise the analysis of gross income per branch.
 
-The seaborn visualisation. analysing the data with the visualization makes the analysis easier and precise.
-
+  sns.countplot(x='Payment', hue='Branch', data=df).set_title("Sales Records")
+countplot also used to visualise the analysis of payment method most used in branches
 
 
 # Executive Summary.
